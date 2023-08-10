@@ -1,5 +1,5 @@
 {
-  "name": "pipa-fn",
+  "name": "pipe-fn",
   "version": "1.0.0",
   "description": "a pipe function. \"Function mengalir sampai jauh\".",
   "main": "index.js",
