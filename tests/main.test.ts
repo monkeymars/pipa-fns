@@ -1,8 +1,8 @@
-import pipa from "../src/pipa";
+import pipe from "../src/pipe";
 
-describe("pipa", () => {
+describe("pipe", () => {
   it("should return a function that returns the input argument when no functions are provided", async () => {
-    const pipedFn = await pipa();
+    const pipedFn = await pipe();
     const result = await pipedFn("test");
     expect(result).toBe("test");
   });
@@ -12,7 +12,7 @@ describe("pipa", () => {
     const multiplyByTwo = (num: number) => num * 2;
     const subtractThree = (num: number) => num - 3;
 
-    const pipedFn = await pipa(addOne, multiplyByTwo, subtractThree);
+    const pipedFn = await pipe(addOne, multiplyByTwo, subtractThree);
     const result = await pipedFn(5);
     expect(result).toBe(9); // (5 + 1) * 2 - 3 = 7
   });
@@ -42,7 +42,7 @@ describe("pipa", () => {
       });
     };
 
-    const pipedFn = await pipa(
+    const pipedFn = await pipe(
       asyncAddOne,
       asyncMultiplyByTwo,
       asyncSubtractThree

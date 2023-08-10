@@ -1,6 +1,6 @@
 type Func<T, R> = (arg: T) => R | Promise<R>;
 
-export default async function pipa(
+export default async function pipe(
   ...fns: Func<any, any>[]
 ): Promise<Func<any, Promise<any>>> {
   return async (arg: any): Promise<any> => {
