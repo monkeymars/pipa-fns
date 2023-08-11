@@ -1,6 +1,6 @@
 {
   "name": "pipa-fns",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a pipe function. \"Function mengalir sampai jauh\".",
   "main": "index.js",
   "scripts": {
