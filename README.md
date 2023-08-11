@@ -1,4 +1,4 @@
-# Function: pipe-fn
+# Function: pipa-fns
 
 The pipe function is a utility function that allows you to compose a series of functions together, where the output of one function becomes the input of the next function. It takes in an array of functions and returns a new function that can be invoked with an argument. The functions can be synchronous or asynchronous, and the output can be a value or a promise.
 
@@ -9,13 +9,13 @@ To use the pipe function, you need to have Node.js installed on your machine. Yo
 ##### Using npm:
 
 ```bash
-npm install --save pipe-fn
+npm install --save pipa-fns
 ```
 
 ##### Using yarn:
 
 ```bash
-yarn add pipe-fn
+yarn add pipa-fns
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ yarn add pipe-fn
 To use the pipe function, you need to import it into your code.
 
 ```javascript
-import pipe from "pipe-fn";
+import pipe from "pipa-fns";
 ```
 
 #### **Example 1**: Composing synchronous functions
