@@ -1,4 +1,4 @@
-import pipe from "../src/pipe";
+import pipe from "../src/pipa";
 
 describe("pipe", () => {
   it("should return a function that returns the input argument when no functions are provided", async () => {
