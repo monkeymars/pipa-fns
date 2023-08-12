@@ -1,9 +1,9 @@
 {
   "name": "pipa-fns",
   "version": "1.0.3",
-  "description": "a pipe function. \"Function mengalir sampai jauh\".",
-  "main": "dist/pipa.js",
-  "types": "dist/pipa.d.ts",
+  "description": "a pipe function is a utility function that allows you to compose a series of functions together, where the output of one function becomes the input of the next function. \"Function mengalir sampai jauh\".",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc",
@@ -34,6 +34,6 @@
     "typescript": "^5.1.6"
   },
   "files": [
-    "dist/**/*"
+    "lib/**/*"
   ]
 }
