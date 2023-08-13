@@ -2,6 +2,10 @@
   "name": "pipa-fns",
   "version": "1.0.5",
   "description": "a pipe function is a utility function that allows you to compose a series of functions together, where the output of one function becomes the input of the next function. \"Function mengalir sampai jauh\".",
+  "keywords": [
+    "pipe-function",
+    "function-composition"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
