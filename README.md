@@ -1,3 +1,5 @@
+[![Build & Test](https://github.com/monkeymars/pipa-fns/actions/workflows/node-ci.yml/badge.svg)](https://github.com/monkeymars/pipa-fns/actions/workflows/node-ci.yml)
+
 # Function: pipa-fns
 
 The **pipa** - _pipe function_, is a utility function that allows you to compose a series of functions together, where the output of one function becomes the input of the next function. It takes in an array of functions and returns a new function that can be invoked with an argument. The functions can be synchronous or asynchronous, and the output can be a value or a promise.
