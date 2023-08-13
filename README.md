@@ -1,4 +1,5 @@
 [![Build & Test](https://github.com/monkeymars/pipa-fns/actions/workflows/node-ci.yml/badge.svg)](https://github.com/monkeymars/pipa-fns/actions/workflows/node-ci.yml)
+[![CodeQL](https://github.com/monkeymars/pipa-fns/actions/workflows/codeql.yml/badge.svg)](https://github.com/monkeymars/pipa-fns/actions/workflows/codeql.yml)
 
 # Function: pipa-fns
 
