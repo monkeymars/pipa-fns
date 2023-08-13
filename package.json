@@ -18,7 +18,11 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "author": "frasa.io",
+  "author": {
+    "name": "Gery Wibowo",
+    "email": "monk3y.mars@gmail.com",
+    "url": "https://github.com/monkeymars"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.22.10",
