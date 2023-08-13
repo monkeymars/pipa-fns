@@ -1,6 +1,6 @@
 {
   "name": "pipa-fns",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a pipe function is a utility function that allows you to compose a series of functions together, where the output of one function becomes the input of the next function. \"Function mengalir sampai jauh\".",
   "keywords": [
     "pipe-function",
